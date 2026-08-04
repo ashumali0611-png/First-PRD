@@ -2,7 +2,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        // Candidate Information
+
         String candidateName = "Aarav";
         int registrationNumber = 24031;
         String degree = "B.E. Computer Science";
@@ -17,11 +17,9 @@ public class Main {
         boolean projectCompleted = true;
         boolean profileVerified = true;
 
-        // Calculated Percentages (Using Type Casting to avoid Integer Division)
         double aptitudePercentage = (double) aptitudeCorrectAnswers / aptitudeTotalQuestions * 100;
         double codingPercentage = (double) codingTestCasesPassed / codingTotalTestCases * 100;
 
-        // Individual Boolean Expressions
         boolean degreeEligible = degreePercentage >= 60;
         boolean backlogEligible = activeBacklogs == 0;
         boolean graduationYearEligible = graduationYear >= 2025 && graduationYear <= 2027; // Compound condition
@@ -31,7 +29,6 @@ public class Main {
         boolean projectEligible = projectCompleted;
         boolean verificationEligible = profileVerified;
 
-        // Combined Overall Condition
         boolean applicationEligible = degreeEligible
                 && backlogEligible
                 && graduationYearEligible
@@ -41,7 +38,6 @@ public class Main {
                 && projectEligible
                 && verificationEligible;
 
-        // Display Candidate Profile
         System.out.println("========================================");
         System.out.println("       CANDIDATE PLACEMENT PROFILE      ");
         System.out.println("========================================");
@@ -58,13 +54,11 @@ public class Main {
         System.out.println("Profile Verified    : " + profileVerified);
         System.out.println("----------------------------------------");
 
-        // Display Calculated Percentages
         System.out.println("ASSESSMENT PERFORMANCE:");
         System.out.println("Aptitude Percentage : " + aptitudePercentage + "%");
         System.out.println("Coding Percentage   : " + codingPercentage + "%");
         System.out.println("----------------------------------------");
 
-        // Display Individual Eligibility Results
         System.out.println("ELIGIBILITY BREAKDOWN:");
         System.out.println("Degree Eligible     : " + degreeEligible);
         System.out.println("Backlog Eligible    : " + backlogEligible);
@@ -77,7 +71,6 @@ public class Main {
         System.out.println("Overall Eligible    : " + applicationEligible);
         System.out.println("----------------------------------------");
 
-        // Final Decision Logic
         if (!degreeEligible) {
             System.out.println("Application Status  : Not Eligible");
             System.out.println("Next Action         : Improve the required degree percentage.");
