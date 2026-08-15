@@ -1,0 +1,33 @@
+========================================
+       CANDIDATE PLACEMENT PROFILE      
+========================================
+Candidate Name      : Aarav
+Registration Number : 24031
+Degree              : B.E. Computer Science
+Graduation Year     : 2026
+Degree Percentage   : 72.5%
+Active Backlogs     : 0
+Aptitude Score      : 38/50
+Coding Test Cases   : 8/10
+Communication Score : 68/100
+Project Completed   : true
+Profile Verified    : true
+----------------------------------------
+ASSESSMENT PERFORMANCE:
+Aptitude Percentage : 76.0%
+Coding Percentage   : 80.0%
+----------------------------------------
+ELIGIBILITY BREAKDOWN:
+Degree Eligible     : true
+Backlog Eligible    : true
+Grad Year Eligible  : true
+Aptitude Eligible   : true
+Coding Eligible     : true
+Comm. Score Eligible: true
+Project Eligible    : true
+Profile Verified    : true
+Overall Eligible    : true
+----------------------------------------
+Application Status  : Eligible to Apply
+Next Action         : Submit the company application.
+========================================
